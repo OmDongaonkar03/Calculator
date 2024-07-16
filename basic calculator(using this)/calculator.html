@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="calculator.css">
+		<script src="calculator.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="display" id="display"></div>
+			<div class="buttonsbox">
+				<div class="button" id="7" onclick="number(this)">7</div>
+				<div class="button" id="8" onclick="number(this)">8</div>
+				<div class="button" id="9" onclick="number(this)">9</div>
+				<div class="button" id="/" onclick="operators('/')"><b>/</b></div>
+
+				<div class="button" id="4" onclick="number(this)">4</div>
+				<div class="button" id="5" onclick="number(this)">5</div>
+				<div class="button" id="6" onclick="number(this)">6</div>
+				<div class="button" id="*" onclick="operators('*')"><b>*</b></div>
+
+				<div class="button" id="1" onclick="number(this)">1</div>
+				<div class="button" id="2" onclick="number(this)">2</div>
+				<div class="button" id="3" onclick="number(this)">3</div>
+				<div class="button" id="-" onclick="operators('-')"><b>-</b></div>
+
+				<div class="button" id="0" onclick="number(this)">0</div>
+				<div class="button" id="." onclick="number(this)"><b>.</b></div>
+				<div class="button" id="+" onclick="operators('+')"><b>+</b></div>
+				<div class="button" onclick="calculate()"><b>=</b></div>
+				<div class="button" onclick="Calclear()">C</div>
+			</div>
+			<div class="signature">
+				<b>~ Om</b>
+			</div>
+		</div>
+	</body>
+</html>

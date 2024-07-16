@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Trad:wght@100..400&display=swap');
+
+body{
+	display:grid;
+	justify-content:center;
+	align-items:center;
+}
+.main{
+	height:560px;
+	width:420px;
+	background-color:black;
+	border-radius:10px;
+}
+.display{
+	height:100px;
+	width:385px;
+	background-color:white;
+	border-radius:5px;
+	margin:4%;
+	display:grid;
+	justify-content:center;
+	align-items:center;
+}
+.buttonsbox{
+	height:370px;
+	width:385px;
+	border-radius:5px;
+	background-color:black;
+	margin:4%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+.button{
+	height:70px;
+	width:80px;
+	border-radius:5px;
+	color:black;
+	background-color:white;
+	margin-top:2%;
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	font-size:25px;
+}
+.button:hover{
+	outline:2px solid gray;
+}
+.signature{
+	font-size:12px;
+	color:white;
+	font-family: "Playwrite FR Trad", cursive;
+	margin:0 0 2% 80%;
+}
